@@ -10,31 +10,31 @@ https://base-mining-leaderboard.streamlit.app
 
 1)      Download the miner from: https://github.com/LunaClassicDAO/WESO_BASE_MINER
 
--   For Linux: weso_base_pow_miner_v01
+-   For Linux: weso_base_pow_miner_v02
 
--   For Windows: weso_base_pow_miner_v01.exe
+-   For Windows: weso_base_pow_miner_v02.exe
 
 -   For MacOS: 
-     - (Intel) weso_base_pow_miner_mac_amd64_v01 or (Apple Silicon) weso_base_pow_miner_mac_arm64_v01 
+     - (Intel) weso_base_pow_miner_mac_amd64_v02 or (Apple Silicon) weso_base_pow_miner_mac_arm64_v02 
      - (Must place in a folder called POW_MINER)
 
 2)      Change permissions to executable via commandline:
 -   For Linux:
-     -   chmod +x ./weso_base_pow_miner_v01
+     -   chmod +x ./weso_base_pow_miner_v02
 -   For Windows:
      -   N/A
 -   For MacOS:
-     -  chmod +x /path_to_folder/POW_MINER/base_miner_mac_arm64_v01 or
-     -  chmod +x /path_to_folder/POW_MINER/base_miner_mac_amd64_v01
+     -  chmod +x /path_to_folder/POW_MINER/base_miner_mac_arm64_v02 or
+     -  chmod +x /path_to_folder/POW_MINER/base_miner_mac_amd64_v02
 
 3)      Start miner from the commandline (in same directory as file):
 
 -   For Linux:
-     - ./weso_base_pow_miner_v01
+     - ./weso_base_pow_miner_v02
 -   For Windows:
-     - weso_base_pow_miner_v01.exe
+     - weso_base_pow_miner_v02.exe
 -   For MacOS:
-     - ./base_miner_mac_arm64_v01
+     - ./base_miner_mac_arm64_v02
 
 4) Select token to mine
 
