@@ -15,7 +15,7 @@ https://base-mining-leaderboard.streamlit.app
 -   For Windows: weso_base_pow_miner_v01.exe
 
 -   For MacOS: 
-     - (Intel) weso_base_pow_miner_mac_amd64_v01 or (Apple Silicone) weso_base_pow_miner_mac_arm64_v01 
+     - (Intel) weso_base_pow_miner_mac_amd64_v01 or (Apple Silicon) weso_base_pow_miner_mac_arm64_v01 
      - (Must place in a folder called POW_MINER)
 
 2)      Change permissions to executable via commandline:
