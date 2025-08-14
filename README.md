@@ -8,9 +8,9 @@ https://base-mining-leaderboard.streamlit.app
 
 **PoW Miner Instructions**
 
-1)      Download the miner from: https://github.com/LunaClassicDAO/WESO_BASE_MINER
+1)      Download the miner from: https://github.com/LunaClassicDAO/WESO_BASE_MINER
 
--   For Linux: weso_base_pow_miner_v02
+-   For Linux: weso_base_pow_miner_v03
 
 -   For Windows: weso_base_pow_miner_v02.exe
 
@@ -18,37 +18,37 @@ https://base-mining-leaderboard.streamlit.app
      - (Intel) weso_base_pow_miner_mac_amd64_v02 or (Apple Silicon) weso_base_pow_miner_mac_arm64_v02 
      - (Must place in a folder called POW_MINER)
 
-2)      Change permissions to executable via commandline:
+2)      Change permissions to executable via commandline:
 -   For Linux:
-     -   chmod +x ./weso_base_pow_miner_v02
+     -   chmod +x ./weso_base_pow_miner_v03
 -   For Windows:
      -   N/A
 -   For MacOS:
      -  chmod +x /path_to_folder/POW_MINER/base_miner_mac_arm64_v02 or
      -  chmod +x /path_to_folder/POW_MINER/base_miner_mac_amd64_v02
 
-3)      Start miner from the commandline (in same directory as file):
+3)      Start miner from the commandline (in same directory as file):
 
 -   For Linux:
-     - ./weso_base_pow_miner_v02
+     - ./weso_base_pow_miner_v03
 -   For Windows:
      - weso_base_pow_miner_v02.exe
 -   For MacOS:
      - ./base_miner_mac_arm64_v02
 
-4) Select token to mine
+4) Select token to mine
 
 ![](/images/token.jpg)
 
-5)      Add wallet address with option 2
+5)      Add wallet address with option 2
 
 ![](/images/add.jpg)
 
-6)      Select the wallet with option 1
+6)      Select the wallet with option 1
 
 ![](/images/wallet.jpg)
 
-7)      Select number of CPU treads to use:  
+7)      Select number of CPU treads to use:  
 
 ![](/images/threads.jpg)
 
@@ -60,11 +60,21 @@ https://base-mining-leaderboard.streamlit.app
 ![](/images/exceeded.jpg)
 
 ---
+
+**Hashing Power Boost (10X hashing performance)**
+**----------------------Linux Only------------------------**
+
+At the linux prompt, enable Large pages
+```bash
+sudo sysctl -w vm.nr_hugepages=1280  
+```
+Start miner with JIT mode and Large pages
+```bash
+./weso_base_pow_miner_v03 -exec_mode jit -mem_pages large
+```
 ---
 
-**Command line options:**
-
-<font color="red">**Not all CPUs support all options**</font>
+**Command line options (Not all CPUs support all options):**
 
 AES hashing
 
