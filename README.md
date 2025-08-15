@@ -64,13 +64,9 @@ https://base-mining-leaderboard.streamlit.app
 **Hashing Power Boost (10X hashing performance)**
 **----------------------Linux Only------------------------**
 
-At the linux prompt, enable Large pages
+Start miner with JIT mode
 ```bash
-sudo sysctl -w vm.nr_hugepages=1280  
-```
-Start miner with JIT mode and Large pages
-```bash
-./weso_base_pow_miner_v03 -exec_mode jit -mem_pages large
+./weso_base_pow_miner_v03 -exec_mode jit
 ```
 ---
 
