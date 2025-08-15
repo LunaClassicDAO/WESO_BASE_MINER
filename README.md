@@ -94,9 +94,9 @@ Pages Size
 
 Memory Size
 
--   \- mem\_size full (default)
+-   \-mem\_size full (default)
 
-- \- mem\_size lite (slower)
+- \-mem\_size lite (slower)
 
 ---
 ---
