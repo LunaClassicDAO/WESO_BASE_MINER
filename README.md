@@ -62,9 +62,11 @@ https://base-mining-leaderboard.streamlit.app
 ---
 
 **Hashing Power Boost (10X hashing performance)**
+
 **----------------------Linux Only------------------------**
 
 Start miner with JIT mode
+
 ```bash
 ./weso_base_pow_miner_v03 -exec_mode jit
 ```
